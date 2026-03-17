@@ -93,6 +93,25 @@ Projenin fonksiyonel ve teknik gereksinimleri analiz edildi ve dokümantasyon ç
 
 **Elif Babürhan:**  
 Geliştirme ortamı kurulumu için gerekli araçlar araştırıldı ve sistem gereksinimleri belirlendi. 
+Kullanılacak Teknolojiler
+Python :Ana programlama dili
+Pandas:Veri analizi
+Scikit-learn:Makine öğrenmesi algoritmaları
+Flask:REST API
+PostgreSQL:Veritabanı
+
+Neden PostgreSQL?
+Büyük veriyle çalışmaya uygun
+Güvenilir
+İlişkisel yapı (user–order–product)
+
+Neden Flask?
+Hafif ve hızlı
+API geliştirmek kolay
+
+Neden Pandas?
+Veriyi analiz etmek kolay
+Veri temizleme işlemleri
 
 **Sema Elmahmud:**  
 Projenin kapsamı analiz edildi ve benzer e-ticaret öneri sistemleri incelendi.
