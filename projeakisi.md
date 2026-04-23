@@ -44,6 +44,12 @@ Bu sistem kullanıcı deneyimini iyileştirmeyi ve satışları artırmayı hede
 
 ## 1. Hafta
 
+**İsmail Özdemir:**  Proje için kullanılabilecek açık kaynak e-ticaret veri setleri araştırıldı ve veri setleri indirildi.
+
+**Sema Elmahmud:**  Projenin kapsamı analiz edildi ve benzer e-ticaret öneri sistemleri incelendi.
+
+**Elif Babürhan:**  Geliştirme ortamı kurulumu için gerekli araçlar araştırıldı ve sistem gereksinimleri belirlendi. 
+
 **Sarya Su Toğyıldız:**  # ✅ Görev 1 Tamamlandı: Teknoloji Araştırması ve Algoritma Karşılaştırması
 
 Projenin akademik ve teknik altyapısını oluşturmak amacıyla yapılan kapsamlı teknoloji araştırması başarıyla tamamlanmıştır.
@@ -55,18 +61,8 @@ Projenin akademik ve teknik altyapısını oluşturmak amacıyla yapılan kapsam
 - **Veritabanı Mimari:** Yapısal verilerin saklanması için PostgreSQL şeması tasarlandı ve sisteme entegrasyonu planlandı.
 - **Stratejik Seçim:** Projenin başlangıç aşamasında "İşbirlikçi Filtreleme" yönteminin temel alınması, ilerleyen aşamalarda ise "Cold Start" problemini aşmak için Hibrit modele geçilmesi hedeflendi.
 
-**AbdulKadir Demir:**  
-Projenin fonksiyonel ve teknik gereksinimleri analiz edildi ve dokümantasyon çalışmaları başlatıldı.  
+**AbdulKadir Demir:**  Projenin fonksiyonel ve teknik gereksinimleri analiz edildi ve dokümantasyon çalışmaları başlatıldı.  
 Gereksinim toplandı ve belgeleme görevi tamamlandı.
-
-**Elif Babürhan:**  
-Geliştirme ortamı kurulumu için gerekli araçlar araştırıldı ve sistem gereksinimleri belirlendi. 
-
-**Sema Elmahmud:**  
-Projenin kapsamı analiz edildi ve benzer e-ticaret öneri sistemleri incelendi.
-
-**İsmail Özdemir:**  
-Proje için kullanılabilecek açık kaynak e-ticaret veri setleri araştırıldı ve veri setleri indirildi.
 
 ---
 
@@ -74,9 +70,7 @@ Proje için kullanılabilecek açık kaynak e-ticaret veri setleri araştırıld
 
 **İsmail Özdemir:** 
 
-**Sema Elmahmud:**
-
-✅ Görev 2 Tamamlandı: Veri Seti Keşfi ve Ön İşleme Planlaması
+**Sema Elmahmud:** ✅ Görev 2 Tamamlandı: Veri Seti Keşfi ve Ön İşleme Planlaması
 Hatalı yazımları giderilmiş, veri tipleri düzeltilmiş ve farklı tabloları anlamlı bir şekilde birbirine bağlanmış, temiz bir veri seti yapısı oluşturmuş oldum.
 
 **Elif Babürhan:**  
@@ -98,9 +92,7 @@ E-ticaret öneri sisteminin kullanıcı arayüzü (UI) ve kullanıcı deneyimi (
 
 **İsmail Özdemir:** 
 
-**Sema Elmahmud:** 
-
-✅ Görev 3 Tamamlandı:Veri Ön İşleme ve Temizleme Modülünün Geliştirilmesi
+**Sema Elmahmud:**  ✅ Görev 3 Tamamlandı: Veri Ön İşleme ve Temizleme Modülünün Geliştirilmesi
 Veri setindeki gürültüyü ve eksiklikleri gidermek için Pandas ile otomatik bir temizleme modülü yazdım. Bu modülle; eksik verileri tamamladım, aykırı değerleri (outliers) IQR yöntemiyle eledim ve veri tiplerini optimize ettim. Sonuç olarak, veriyi modellemeye hazır, yüksek performanslı Parquet formatında dışa aktardım.
 
 **Elif Babürhan:**  
