@@ -180,11 +180,13 @@ Bu optimizasyonlar neticesinde öneri motorunun isabet oranı (Hit Rate) ve kull
 
 **İsmail Özdemir:** 
 
-**Sema Elmahmud:** 
+**Sema Elmahmud:** ✅ Görev 6 Tamamlandı :REST API Tasarımı Ve Belgelendirme
+
+Bu projede, bir ürün öneri sisteminin dış dünya ile iletişimini sağlayan REST API yapısını tasarlayıp JSON formatlarını ve uç noktalarını belirledim. Sistemin güvenliğini JWT ve rol tabanlı yetkilendirme ile sağlarken, yüksek hız ve performans için Redis önbellekleme ve veritabanı indeksleme tekniklerini kullandım.
 
 **Elif Babürhan:**  
 
-**Sarya Su Toğyıldız:**  ✅ Görev 6 Tamamlandı: Dokümantasyon ve Final Kontroller
+**Sarya Su Toğyıldız:** ✅ Görev 6 Tamamlandı : Dokümantasyon ve Final Kontroller
 
 ###  Yapılan Teknik İşlemler
 
