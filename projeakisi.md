@@ -122,7 +122,10 @@ Veri setindeki gürültüyü ve eksiklikleri gidermek için Pandas ile otomatik 
 
 **İsmail Özdemir:** 
 
-**Sema Elmahmud:** 
+**Sema Elmahmud:** ✅ Görev 4 Tamamlandı :Proje Sunumu için Veri Görselleştirme ve Raporlama
+
+Bu hafta proje sunumu için veri görselleştirme çalışmaları tamamlandı ve kullanıcı davranışlarını analiz eden grafikler oluşturuldu. Elde edilen sonuçlar düzenlenerek raporlama süreci tamamlandı ve sunuma hazır hale getirildi.
+
 
 **Elif Babürhan:**  
 
@@ -144,9 +147,9 @@ Veri setindeki gürültüyü ve eksiklikleri gidermek için Pandas ile otomatik 
 
 **İsmail Özdemir:** 
 
-**Sema Elmahmud:** ✅ Görev 5 Tamamlandı :Proje Sunumu için Veri Görselleştirme ve Raporlama
+**Sema Elmahmud:** ✅ Görev 5 Tamamlandı :Veri Ön İşleme ve Temizleme Adımlarının İyileştirilmesi
 
-Bu hafta proje sunumu için veri görselleştirme çalışmaları tamamlandı ve kullanıcı davranışlarını analiz eden grafikler oluşturuldu. Elde edilen sonuçlar düzenlenerek raporlama süreci tamamlandı ve sunuma hazır hale getirildi.
+Bu hafta veri ön işleme ve temizleme adımları geliştirilerek eksik veriler, aykırı değerler ve veri tipi hataları düzenlendi. Ayrıca tablolar arası birleştirme işlemleri iyileştirildi ve temizleme kodları modüler hale getirilerek sistemin performansı ve veri kalitesi artırıldı.
 
 **Elif Babürhan:**  
 
