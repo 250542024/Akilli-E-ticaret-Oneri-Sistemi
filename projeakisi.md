@@ -77,7 +77,33 @@ Proje için kullanılabilecek açık kaynak e-ticaret veri setleri araştırıld
 **Sema Elmahmud:** ✅ Görev 2 Tamamlandı: Veri Seti Keşfi ve Ön İşleme Planlaması
 Hatalı yazımları giderilmiş, veri tipleri düzeltilmiş ve farklı tabloları anlamlı bir şekilde birbirine bağlanmış, temiz bir veri seti yapısı oluşturmuş oldum.
 
-**Elif Babürhan:** ✅ Görev 2 Tamamlandı: PostgreSQL kullanılarak bir e-ticaret veritabanı tasarlanmıştır. Kullanıcılar, ürünler, siparişler ve etkileşimler için tablolar oluşturulmuş ve aralarındaki ilişkiler kurulmuştur.
+**Elif Babürhan:** ✅ Görev 2 Tamamlandı: # PostgreSQL Veritabanı Tasarımı
+
+Bu projede, e-ticaret sistemi için müşteri bilgileri, ürünler ve kullanıcı etkileşimlerini içeren ilişkisel bir veritabanı tasarlanmıştır.
+
+## 📌 Yapılanlar
+
+- Müşteri, ürün ve sipariş tabloları oluşturuldu
+- Tablolar için sütunlar ve veri tipleri tanımlandı
+- Tablolar arasında FOREIGN KEY ilişkileri kuruldu
+- Veri bütünlüğü için PRIMARY KEY, UNIQUE, NOT NULL ve CHECK kısıtlamaları eklendi
+- Performans için gerekli alanlara INDEX yapısı oluşturuldu
+
+## 🔗 Veritabanı Yapısı
+
+- users → müşteri bilgileri
+- products → ürün bilgileri
+- orders → siparişler
+- order_items → sipariş detayları
+- interactions → kullanıcı etkileşimleri
+
+## 📊 Diyagram
+
+Veri modeli ER diyagramı ile görselleştirilmiştir ve tablolar arasındaki ilişkiler gösterilmiştir.
+
+## ⚡ Amaç
+
+Verimli, ölçeklenebilir ve veri bütünlüğü korunmuş bir e-ticaret veritabanı tasarlamak.
 
 **Sarya Su Toğyıldız:** ✅ Görev 2 Tamamlandı: UI ve UX Wireframe Tasarımı
 
@@ -101,7 +127,29 @@ E-ticaret öneri sisteminin kullanıcı arayüzü (UI) ve kullanıcı deneyimi (
 **Sema Elmahmud:**  ✅ Görev 3 Tamamlandı: Veri Ön İşleme ve Temizleme Modülünün Geliştirilmesi
 Veri setindeki gürültüyü ve eksiklikleri gidermek için Pandas ile otomatik bir temizleme modülü yazdım. Bu modülle; eksik verileri tamamladım, aykırı değerleri (outliers) IQR yöntemiyle eledim ve veri tiplerini optimize ettim. Sonuç olarak, veriyi modellemeye hazır, yüksek performanslı Parquet formatında dışa aktardım.
 
-**Elif Babürhan:**  
+**Elif Babürhan:**  ✅ Görev 3 Tamamlandı : # Flask + Scikit-learn Ürün Öneri Sistemi
+
+## Amaç
+Flask kullanarak REST API geliştirmek ve Scikit-learn ile ürün öneri sistemi oluşturmak.
+
+## Yapılanlar
+- Flask ile API kuruldu
+- `/recommendations` endpoint’i oluşturuldu
+- Kosinüs benzerliği ile öneri algoritması geliştirildi
+- Model `.pkl` olarak kaydedildi ve API’ye entegre edildi
+- Threshold ve top_n parametreleri eklendi
+- Fallback (model yoksa statik veri) sistemi kuruldu
+
+## Testler
+- `/` ana sayfa çalıştı
+- `/api/v1/recommendations/<user_id>` öneri döndürdü
+- Parametreli sorgular test edildi
+
+## Teknolojiler
+Flask, Scikit-learn, Pandas, NumPy, Joblib
+
+## Sonuç
+Çalışan bir REST API tabanlı ürün öneri sistemi geliştirilmiştir.
 
 **Sarya Su Toğyıldız:** ✅ Görev 3 Tamamlandı: REST API Tasarımı ve Spesifikasyonu
 
@@ -124,7 +172,29 @@ Veri setindeki gürültüyü ve eksiklikleri gidermek için Pandas ile otomatik 
 
 **Sema Elmahmud:** 
 
-**Elif Babürhan:**  
+**Elif Babürhan:** ✅Görev 4 Tamamlandı : # PostgreSQL + Python Veri Çekme Projesi
+
+Bu projede Python kullanılarak PostgreSQL veritabanına bağlantı kurulmuş, ürün ve kullanıcı verileri çekilmiştir.
+
+## Kullanılan Teknolojiler
+- Python
+- PostgreSQL
+- psycopg2
+- Pandas
+- python-dotenv
+
+## Yapılan İşlemler
+- Veritabanına bağlantı kuruldu
+- SQL SELECT sorguları ile veri çekildi
+- Veriler Pandas DataFrame’e aktarıldı
+- Veri analizi için hazır hale getirildi
+
+## Güvenlik
+- Veritabanı bilgileri `.env` dosyasında saklanmıştır
+- Şifreler koda yazılmamıştır
+
+## Amaç
+Veritabanından alınan verileri Python ile işleyip analiz edilebilir hale getirmek
 
 **Sarya Su Toğyıldız:** ✅ Görev 4 Tamamlandı: Flask API ve Logging
 
